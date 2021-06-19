@@ -367,13 +367,25 @@ body {
   flex-direction: column;
   position: absolute;
   width: 363px;
-  bottom: 0px;
+  bottom: 3px;
   background: linear-gradient(
     180deg,
     rgba(0, 0, 0, 7.5e-5) 0%,
     rgba(0, 0, 0, 0.75) 82.82%
   );
   padding: 20px;
+  border-radius: 5px;
+}
+.hero-car-bottom-content {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 370px;
+  bottom: 5px;
+  padding: 20px;
+  background: linear-gradient( 
+180deg
+, rgba(0, 0, 0, 7.5e-5) 0%, rgba(0, 0, 0, 0.75) 82.82% );
   border-radius: 5px;
 }
 .hero-car-date {
@@ -389,22 +401,24 @@ body {
   line-height: 36px;
   color: #ffffff;
 }
-.hero-car-others {
-  display: flex;
-  position: relative;
+.hero-car-two{
+margin-right: 30px;
 }
-.img-car-other {
+.img-car-other, .img-cars {
   position: relative;
   width: 370px;
   height: auto;
   object-fit: cover;
   border-radius: 5px;
 }
+.img-cars{
+  margin-bottom: 15px;
+}
 .hero-car-other-content {
   display: flex;
   flex-direction: column;
   position: absolute;
-  width: 363px;
+  width: 370px;
   bottom: 287px;
   padding: 20px;
   background: linear-gradient(
@@ -427,5 +441,4 @@ body {
   line-height: 30px;
   color: #ffffff;
 }
-
 /*=====================HERO STYLES END======================*/
