@@ -346,27 +346,35 @@ body {
 /*=====================HERO STYLES START======================*/
 .hero {
   padding-top: 30px;
-  padding-bottom: 50px;
+  padding-bottom: 40px;
 }
 .hero-section {
   display: flex;
-  justify-content: space-between;
   position: relative;
 }
-.hero-car-one {
+.hero-car {
   margin-right: 30px;
 }
-.img-car-one {
-  width: 363px;
+.img-car {
+  width: 370px;
   height: auto;
   object-fit: cover;
   border-radius: 5px;
+}
+.hero-vehicle-btn{
+  display: flex;
+  position: absolute;
+  align-content:flex-start;
+  margin: 30px 20px;
+}
+.vehicle-btn:hover{
+  box-shadow: 0 0 15px rgba(74, 144, 226);
 }
 .hero-car-content {
   display: flex;
   flex-direction: column;
   position: absolute;
-  width: 363px;
+  width: 370px;
   bottom: 3px;
   background: linear-gradient(
     180deg,
@@ -374,18 +382,6 @@ body {
     rgba(0, 0, 0, 0.75) 82.82%
   );
   padding: 20px;
-  border-radius: 5px;
-}
-.hero-car-bottom-content {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  width: 370px;
-  bottom: 5px;
-  padding: 20px;
-  background: linear-gradient( 
-180deg
-, rgba(0, 0, 0, 7.5e-5) 0%, rgba(0, 0, 0, 0.75) 82.82% );
   border-radius: 5px;
 }
 .hero-car-date {
@@ -401,44 +397,129 @@ body {
   line-height: 36px;
   color: #ffffff;
 }
-.hero-car-two{
-margin-right: 30px;
+.hero-section-two{
+  display: flex;
 }
-.img-car-other, .img-cars {
-  position: relative;
-  width: 370px;
-  height: auto;
-  object-fit: cover;
-  border-radius: 5px;
+.hero-section-car-one {
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.hero-section-car{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .img-cars{
-  margin-bottom: 15px;
+width: 370px;
+height: auto;
+object-fit: cover;
+border-radius: 5px;
 }
-.hero-car-other-content {
+.hero-cars-content {
   display: flex;
   flex-direction: column;
   position: absolute;
   width: 370px;
-  bottom: 287px;
+  bottom: 3px;
   padding: 20px;
-  background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 7.5e-5) 0%,
-    rgba(0, 0, 0, 0.75) 82.82%
-  );
+  background: linear-gradient( 
+180deg
+, rgba(0, 0, 0, 7.5e-5) 0%, rgba(0, 0, 0, 0.75) 82.82% );
   border-radius: 5px;
 }
-.hero-car-other-date {
+.hero-cars-content-two{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 370px;
+  bottom: 298px;
+  padding: 20px;
+  background: linear-gradient( 
+180deg
+, rgba(0, 0, 0, 7.5e-5) 0%, rgba(0, 0, 0, 0.75) 82.82% );
+  border-radius: 5px;
+}
+.hero-cars-date {
   font-family: "PT Sans Regular";
   font-size: 14px;
-  line-height: 18px;
+line-height: 18px;
   color: #ffffff;
+  margin-bottom: 10px;
 }
-.hero-car-other-text {
+.hero-cars-text {
+  width: 265px;
   font-family: "PT Sans Bold";
-  width: 245px;
   font-size: 20px;
-  line-height: 30px;
+line-height: 30px;
   color: #ffffff;
 }
 /*=====================HERO STYLES END======================*/
+.news{
+  padding-top: 40px;
+  padding-bottom: 100px;
+}
+.news-cars-info{
+  display: flex;
+  position: relative;
+}
+.top-info{
+  padding-top: 180px;
+}
+.img-news{
+  width: 770px;
+  height: auto;
+  object-fit: cover;
+}
+.news-vehicle-btn{
+  display: flex;
+  position: absolute;
+  align-content:flex-start;
+  margin: 30px 20px;
+}
+.cars-info{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 770px;
+  padding: 20px;
+  bottom: -140px;
+}
+.news-cars-content{
+  background: #fff;
+  padding: 70px 105px 30px 30px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 15px 0px rgb(13 16 37 / 20%);
+}
+.news-titel{
+font-family: "PT Sans Bold";
+font-size: 25px;
+line-height: 28px;
+color: #171717;
+margin-bottom: 15px;
+}
+.news-date{
+font-family: "PT Sans italic";
+font-size: 14px;
+line-height: 18px;
+color: #666666;
+margin-bottom: 15px;
+}
+.news-text{
+  font-family: "PT Sans Regular";
+font-size: 14px;
+line-height: 24px;
+color: #666666;
+width: 600px;
+}
+.news-vehicle-btn{
+  display: flex;
+  position: absolute;
+  align-content:flex-start;
+  margin: 30px 20px;
+}
+.vehicle-btn:hover{
+  box-shadow: 0 0 15px rgba(74, 144, 226);
+}
+
