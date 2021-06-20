@@ -307,11 +307,6 @@ body {
   width: 100%;
   margin: 0 auto;
 }
-.logo-hover:hover {
-  border-radius: 8px;
-  transition: 0.3s;
-  box-shadow: 0px 30px 54px -6px rgb(245 56 56 / 55%);
-}
 /*=====================COMMON STYLES END======================*/
 /*=====================HEADER STYLES START======================*/
 .header {
@@ -326,6 +321,13 @@ body {
   justify-content: space-between;
   padding-top: 15px;
   padding-bottom: 15px;
+}
+.logo:hover{
+  box-shadow: 0 0 15px rgb(255, 255, 255);
+  border-radius: 5px;
+}
+.img-logo{
+  margin: 5px;
 }
 .nav a {
   font-family: "PT Sans Regular";
@@ -460,6 +462,10 @@ line-height: 30px;
   padding-top: 40px;
   padding-bottom: 100px;
 }
+.news-cars{
+  display: flex;
+  justify-content: space-between;
+}
 .news-cars-info{
   display: flex;
   position: relative;
@@ -522,4 +528,64 @@ width: 600px;
 .vehicle-btn:hover{
   box-shadow: 0 0 15px rgba(74, 144, 226);
 }
-
+.creative-side{
+  margin-bottom: 60px;
+}
+.img-creative-side{
+width: 270px;
+height: auto;
+object-fit: cover;
+margin-bottom: 20px;
+}
+.creative-side-content{
+  width: 270px;
+}
+.creative-side-name{
+font-family: "PT Sans Bold";
+font-size: 18px;
+line-height: 23px;
+color: #171717;
+margin-bottom: 10px;
+}
+.creative-side-bloger{
+  font-family: "PT Sans italic";
+font-size: 14px;
+line-height: 18px;
+color: #999999;
+margin-bottom: 15px;
+}
+.creative-side-text{
+font-family: "PT Sans Regular";
+font-size: 15px;
+line-height: 25px;
+color: #666666;
+margin-bottom: 20px;
+}
+.creative-side-btn{
+  font-family: "PT Sans Bold";
+font-size: 14px;
+line-height: 18px;
+  padding: 15px 80px;
+  color: #fff;
+  background: #232323;
+  border: 2px solid #232323;
+border-radius: 5px;
+}
+.creative-side-btn:hover{
+  color: #232323;
+  background: #fff;
+  transition: 0.3s;
+}
+.post-title{
+  font-family: "PT Sans Bold";
+font-size: 18px;
+line-height: 23px;
+color: #171717;
+margin-bottom: 25px;
+}
+.img-post-car{
+  width: 270px;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
