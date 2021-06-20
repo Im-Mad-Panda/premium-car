@@ -458,6 +458,7 @@ line-height: 30px;
   color: #ffffff;
 }
 /*=====================HERO STYLES END======================*/
+/*=====================NEWS STYLE START======================*/
 .news{
   padding-top: 40px;
   padding-bottom: 100px;
@@ -519,14 +520,10 @@ line-height: 24px;
 color: #666666;
 width: 600px;
 }
-.news-vehicle-btn{
-  display: flex;
-  position: absolute;
-  align-content:flex-start;
-  margin: 30px 20px;
-}
-.vehicle-btn:hover{
-  box-shadow: 0 0 15px rgba(74, 144, 226);
+/*=====================NEWS STYLE END======================*/
+/*=====================ASIDE STYLE START======================*/
+.aside{
+  width: 270px;
 }
 .creative-side{
   margin-bottom: 60px;
@@ -589,3 +586,66 @@ margin-bottom: 25px;
   object-fit: cover;
   margin-bottom: 20px;
 }
+.post-car-title{
+  width: 270px;
+  font-family: "PT Sans Bold";
+font-size: 20px;
+line-height: 28px;
+color: #171717;
+margin-bottom: 10px;
+}
+.post-car-text{
+  font-family: "PT Sans italic";
+font-size: 14px;
+line-height: 18px;
+color: #666666;
+margin-bottom: 40px;
+}
+.instagram-title{
+  font-family: "PT Sans Bold";
+font-size: 18px;
+line-height: 21px;
+color: #171717;
+margin-bottom: 25px;
+}
+.instagram-post-img {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.img-instagram{
+  width: 130px;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+.instagram-btn{
+    padding: 17px 76px;
+    background: #232323;
+    border-radius: 5px;
+    margin-bottom: 60px;
+}
+.instagram-btn:hover{
+  box-shadow: 0 0 15px rgba(74, 144, 226);
+  transition: 0.3s;
+  /* filter: grayscale(1);
+  opacity: -1; */
+}
+.tags-title{
+  font-family: "PT Sans Bold";
+font-size: 18px;
+line-height: 21px;
+color: #171717;
+margin-bottom: 30px;
+}
+.tags-btn{
+  font-family: "PT Sans Regular";
+font-size: 14px;
+line-height: 18px;
+color: #171717;
+  padding: 5px 18px;
+  background: #EBEBEB;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
