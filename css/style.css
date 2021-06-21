@@ -548,8 +548,8 @@ margin-bottom: 10px;
   font-family: "PT Sans italic";
 font-size: 14px;
 line-height: 18px;
-color: #999999;
-margin-bottom: 15px;
+color: #666666;
+margin-bottom: 40px;
 }
 .creative-side-text{
 font-family: "PT Sans Regular";
@@ -691,10 +691,11 @@ margin-bottom: 30px;
   padding-left: 20px;
   width: 270px;
   height: 50px;
-  font-size: 15px;
-  line-height: 32px;
+  font-size: 14px;
+  line-height: 18px;
   margin-bottom: 10px;
-  border: 0.8px solid #afb0b9;
+  color: #AEB3BB;
+  border: 1px solid #E5E5E5;
   box-sizing: border-box;
   border-radius: 5px;
 }
@@ -710,3 +711,4 @@ margin-bottom: 30px;
   box-shadow: 0 0 15px rgb(54, 54, 54);
   transition: 0.3s;
 }
+/*=====================ASIDE STYLE END======================*/
