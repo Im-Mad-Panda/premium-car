@@ -461,7 +461,7 @@ line-height: 30px;
 /*=====================NEWS STYLE START======================*/
 .news{
   padding-top: 40px;
-  padding-bottom: 100px;
+  padding-bottom: 200px;
 }
 .news-cars{
   display: flex;
@@ -472,7 +472,7 @@ line-height: 30px;
   position: relative;
 }
 .top-info{
-  padding-top: 180px;
+  margin-top: 180px;
 }
 .img-news{
   width: 770px;
