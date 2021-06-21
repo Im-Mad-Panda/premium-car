@@ -713,7 +713,7 @@ margin-bottom: 30px;
 }
 /*=====================ASIDE STYLE END======================*/
 .footer{
-  background: #000000;
+  background: #171717;
 }
 .footer-nav{display: flex;
   padding-top: 60px;
@@ -813,4 +813,19 @@ line-height: 18px;
 .news-letter-email-btn:hover{
   box-shadow: 0 0 15px rgb(255, 255, 255);
   transition: 0.3s;
+}
+.footer-company{
+  background: #000000;
+  padding: 30px 0;
+}
+.footer-data-company{
+  font-family: "PT Sans Regular";
+font-size: 14px;
+line-height: 18px;
+color: #FFFFFF;
+}
+.footer-company-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
