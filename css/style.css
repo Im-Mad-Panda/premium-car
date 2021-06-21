@@ -626,10 +626,8 @@ margin-bottom: 25px;
     margin-bottom: 60px;
 }
 .instagram-btn:hover{
-  box-shadow: 0 0 15px rgba(74, 144, 226);
+  box-shadow: 0 0 15px rgb(54, 54, 54);
   transition: 0.3s;
-  /* filter: grayscale(1);
-  opacity: -1; */
 }
 .tags-title{
   font-family: "PT Sans Bold";
@@ -638,7 +636,7 @@ line-height: 21px;
 color: #171717;
 margin-bottom: 30px;
 }
-.tags-btn{
+/* .tags-btn{
   font-family: "PT Sans Regular";
 font-size: 14px;
 line-height: 18px;
@@ -647,5 +645,68 @@ color: #171717;
   background: #EBEBEB;
   border-radius: 3px;
   margin-bottom: 10px;
+} */
+.tags-btn{
+display: flex;
+flex-wrap: wrap;
+margin-bottom: 60px;
 }
-
+.tags-btn > li:nth-child(n + 1){
+    margin-right: 10px;
+  }
+.tags-btn > li > a{
+  font-family: "PT Sans Regular";
+  font-size: 14px;
+  line-height: 18px;
+  color: #171717;
+    padding: 5px 15px;
+    background: #EBEBEB;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+.tags-btn > li > a:hover{
+  background: #999999;
+  transition: 0.3s;
+}
+.email-title{
+  font-family: "PT Sans Bold";
+font-size: 18px;
+line-height: 23px;
+color: #171717;
+margin-bottom: 10px;
+}
+.email-text{
+  font-family: "PT Sans Regular";
+font-size: 14px;
+line-height: 24px;
+color: #666666;
+margin-bottom: 30px;
+}
+.email-forms{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero-select {
+  padding-left: 20px;
+  width: 270px;
+  height: 50px;
+  font-size: 15px;
+  line-height: 32px;
+  margin-bottom: 10px;
+  border: 0.8px solid #afb0b9;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.email-btn{
+  padding: 17px 51px;
+  color: #fff;
+  text-align: center;
+  background: #232323;
+  border-radius: 5px;
+  margin-bottom: 60px;
+}
+.email-btn:hover{
+  box-shadow: 0 0 15px rgb(54, 54, 54);
+  transition: 0.3s;
+}
