@@ -431,7 +431,7 @@ border-radius: 5px;
 , rgba(0, 0, 0, 7.5e-5) 0%, rgba(0, 0, 0, 0.75) 82.82% );
   border-radius: 5px;
 }
-.hero-cars-content-two{
+/* .hero-cars-content-two{
   display: flex;
   flex-direction: column;
   position: absolute;
@@ -442,7 +442,7 @@ border-radius: 5px;
 180deg
 , rgba(0, 0, 0, 7.5e-5) 0%, rgba(0, 0, 0, 0.75) 82.82% );
   border-radius: 5px;
-}
+} */
 .hero-cars-date {
   font-family: "PT Sans Regular";
   font-size: 14px;
