@@ -566,23 +566,6 @@
                 <li><a href="#">Teamwork</a></li>
                 <li><a href="#">Monetize</a></li>
               </ul>
-              <!-- <a href="#" class="tags-btn">Business</a>
-              <a href="#" class="tags-btn">Freelance</a>
-              <a href="#" class="tags-btn">Money</a>
-              <a href="#" class="tags-btn">Experience</a>
-              <a href="#" class="tags-btn">Lifestyle</a>
-              <a href="#" class="tags-btn">SEO</a>
-              <a href="#" class="tags-btn">Wordpress</a>
-              <a href="#" class="tags-btn">Marketing</a>
-              <a href="#" class="tags-btn">UX</a>
-              <a href="#" class="tags-btn">Modern</a>
-              <a href="#" class="tags-btn">Success</a>
-              <a href="#" class="tags-btn">Nature</a>
-              <a href="#" class="tags-btn">Productivity</a>
-              <a href="#" class="tags-btn">Sales page</a>
-              <a href="#" class="tags-btn">Sell</a>
-              <a href="#" class="tags-btn">Teamwork</a>
-              <a href="#" class="tags-btn">Monetize</a> -->
             </div>
             <div class="email">
               <h2 class="email-title">Email newsletter</h2>
@@ -590,26 +573,40 @@
                 Sign up to receive email updates and to hear what's going on.
               </p>
               <div class="email-forms">
-                <input
-                  class="hero-select"
-                  type="text"
-                  name="name"
-                  value="Your name"
-                />
-                <input
-                  class="hero-select"
-                  type="text"
-                  name="adress"
-                  value="Your email adress"
-                />
-                <a href="#" class="email-btn">Subscribe to newsletter</a>
+                <form method="GET">
+                  <label class="required">
+                    <input
+                      class="hero-your-imput"
+                      type="text"
+                      placeholder="Your name"
+                      autofocus
+                      autocomplete="name"
+                      name="firstname"
+                      pattern="^[A-Z][a-z]{2,15}$"
+                    />
+                  </label>
+                  <label class="required">
+                    <input
+                      class="hero-your-imput"
+                      type="email"
+                      placeholder="Your email adress"
+                      autofocus
+                      autocomplete="email"
+                      name="email"
+                      required
+                    />
+                  </label>
+                  <!-- <a type="submit" tabindex="1" href="#" class="email-btn">Subscribe to newsletter</a> -->
+                  <button type="submit" tabindex="1" href="#" class="email-btn">
+                    Subscribe to newsletter
+                  </button>
+                </form>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-
     <div class="footer">
       <div class="container">
         <div class="footer-nav">
@@ -742,23 +739,35 @@
           </div>
           <div class="news-letter">
             <div class="news-letter-title">Newsletter</div>
-            <div class="news-letter-email">
-              <div class="news-letter-email-forms">
-                <input
-                  class="news-letter-select"
-                  type="text"
-                  name="name"
-                  value="Your name"
-                />
-                <input
-                  class="news-letter-select"
-                  type="text"
-                  name="adress"
-                  value="Your email adress"
-                />
-                <a href="#" class="news-letter-email-btn">Subscribe to newsletter</a>
-              </div>
-            </div>
+            <div class="news-letter-email"> 
+                <form method="GET">
+                <label class="required">
+                  <input
+                    class="news-letter-select"
+                    type="text"
+                    placeholder="Your name"
+                    autofocus
+                    autocomplete="name"
+                    name="firstname"
+                    pattern="^[A-Z][a-z]{2,15}$"
+                  />
+                </label>
+                <label class="required">
+                  <input
+                    class="news-letter-select"
+                    type="email"
+                    placeholder="Your email adress"
+                    autofocus
+                    autocomplete="email"
+                    name="email"
+                    required
+                  />
+                </label>
+                <!-- <a type="submit" tabindex="1" href="#" class="email-btn">Subscribe to newsletter</a> -->
+                <button class="news-letter-email-btn" type="submit" tabindex="1" href="#">
+                  Subscribe to newsletter
+                </button>
+              </form>
           </div>
         </div>
       </div>
@@ -766,15 +775,15 @@
     <footer class="footer-company">
       <div class="container">
         <div class="footer-company-nav">
-      <p class="footer-data-company">@2021 Logwork. All Right Reserved.</p>
-      <ul class="nav">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Recipes</a></li>
-        <li><a href="#">Article</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Purchase</a></li>
-      </ul>
-      </div>
+          <p class="footer-data-company">@2021 Logwork. All Right Reserved.</p>
+          <ul class="nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Recipes</a></li>
+            <li><a href="#">Article</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Purchase</a></li>
+          </ul>
+        </div>
       </div>
     </footer>
 

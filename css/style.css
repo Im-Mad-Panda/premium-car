@@ -322,11 +322,11 @@ body {
   padding-top: 15px;
   padding-bottom: 15px;
 }
-.logo:hover{
+.logo:hover {
   box-shadow: 0 0 15px rgb(255, 255, 255);
   border-radius: 5px;
 }
-.img-logo{
+.img-logo {
   margin: 5px;
 }
 .nav a {
@@ -363,13 +363,13 @@ body {
   object-fit: cover;
   border-radius: 5px;
 }
-.hero-vehicle-btn{
+.hero-vehicle-btn {
   display: flex;
   position: absolute;
-  align-content:flex-start;
+  align-content: flex-start;
   margin: 30px 20px;
 }
-.vehicle-btn:hover{
+.vehicle-btn:hover {
   box-shadow: 0 0 15px rgba(74, 144, 226);
 }
 .hero-car-content {
@@ -399,7 +399,7 @@ body {
   line-height: 36px;
   color: #ffffff;
 }
-.hero-section-two{
+.hero-section-two {
   display: flex;
 }
 .hero-section-car-one {
@@ -408,16 +408,16 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
-.hero-section-car{
+.hero-section-car {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.img-cars{
-width: 370px;
-height: auto;
-object-fit: cover;
-border-radius: 5px;
+.img-cars {
+  width: 370px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 5px;
 }
 .hero-cars-content {
   display: flex;
@@ -426,27 +426,31 @@ border-radius: 5px;
   width: 370px;
   bottom: 3px;
   padding: 20px;
-  background: linear-gradient( 
-180deg
-, rgba(0, 0, 0, 7.5e-5) 0%, rgba(0, 0, 0, 0.75) 82.82% );
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 7.5e-5) 0%,
+    rgba(0, 0, 0, 0.75) 82.82%
+  );
   border-radius: 5px;
 }
-/* .hero-cars-content-two{
+.hero-cars-content-two {
   display: flex;
   flex-direction: column;
   position: absolute;
   width: 370px;
-  bottom: 298px;
+  bottom: 299px;
   padding: 20px;
-  background: linear-gradient( 
-180deg
-, rgba(0, 0, 0, 7.5e-5) 0%, rgba(0, 0, 0, 0.75) 82.82% );
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 7.5e-5) 0%,
+    rgba(0, 0, 0, 0.75) 82.82%
+  );
   border-radius: 5px;
-} */
+}
 .hero-cars-date {
   font-family: "PT Sans Regular";
   font-size: 14px;
-line-height: 18px;
+  line-height: 18px;
   color: #ffffff;
   margin-bottom: 10px;
 }
@@ -454,38 +458,38 @@ line-height: 18px;
   width: 265px;
   font-family: "PT Sans Bold";
   font-size: 20px;
-line-height: 30px;
+  line-height: 30px;
   color: #ffffff;
 }
 /*=====================HERO STYLES END======================*/
 /*=====================NEWS STYLE START======================*/
-.news{
+.news {
   padding-top: 40px;
   padding-bottom: 200px;
 }
-.news-cars{
+.news-cars {
   display: flex;
   justify-content: space-between;
 }
-.news-cars-info{
+.news-cars-info {
   display: flex;
   position: relative;
 }
-.top-info{
+.top-info {
   margin-top: 180px;
 }
-.img-news{
+.img-news {
   width: 770px;
   height: auto;
   object-fit: cover;
 }
-.news-vehicle-btn{
+.news-vehicle-btn {
   display: flex;
   position: absolute;
-  align-content:flex-start;
+  align-content: flex-start;
   margin: 30px 20px;
 }
-.cars-info{
+.cars-info {
   display: flex;
   flex-direction: column;
   position: absolute;
@@ -493,338 +497,334 @@ line-height: 30px;
   padding: 20px;
   bottom: -140px;
 }
-.news-cars-content{
+.news-cars-content {
   background: #fff;
   padding: 70px 105px 30px 30px;
   border-radius: 5px;
   box-shadow: 0px 5px 15px 0px rgb(13 16 37 / 20%);
 }
-.news-titel{
-font-family: "PT Sans Bold";
-font-size: 25px;
-line-height: 28px;
-color: #171717;
-margin-bottom: 15px;
+.news-titel {
+  font-family: "PT Sans Bold";
+  font-size: 25px;
+  line-height: 28px;
+  color: #171717;
+  margin-bottom: 15px;
 }
-.news-date{
-font-family: "PT Sans italic";
-font-size: 14px;
-line-height: 18px;
-color: #666666;
-margin-bottom: 15px;
+.news-date {
+  font-family: "PT Sans italic";
+  font-size: 14px;
+  line-height: 18px;
+  color: #666666;
+  margin-bottom: 15px;
 }
-.news-text{
+.news-text {
   font-family: "PT Sans Regular";
-font-size: 14px;
-line-height: 24px;
-color: #666666;
-width: 600px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #666666;
+  width: 600px;
 }
 /*=====================NEWS STYLE END======================*/
 /*=====================ASIDE STYLE START======================*/
-.aside{
+.aside {
   width: 270px;
 }
-.creative-side{
+.creative-side {
   margin-bottom: 60px;
 }
-.img-creative-side{
-width: 270px;
-height: auto;
-object-fit: cover;
-margin-bottom: 20px;
-}
-.creative-side-content{
-  width: 270px;
-}
-.creative-side-name{
-font-family: "PT Sans Bold";
-font-size: 18px;
-line-height: 23px;
-color: #171717;
-margin-bottom: 10px;
-}
-.creative-side-bloger{
-  font-family: "PT Sans italic";
-font-size: 14px;
-line-height: 18px;
-color: #666666;
-margin-bottom: 40px;
-}
-.creative-side-text{
-font-family: "PT Sans Regular";
-font-size: 15px;
-line-height: 25px;
-color: #666666;
-margin-bottom: 20px;
-}
-.creative-side-btn{
-  font-family: "PT Sans Bold";
-font-size: 14px;
-line-height: 18px;
-  padding: 15px 80px;
-  color: #fff;
-  background: #232323;
-  border: 2px solid #232323;
-border-radius: 5px;
-}
-.creative-side-btn:hover{
-  color: #232323;
-  background: #fff;
-  transition: 0.3s;
-}
-.post-title{
-  font-family: "PT Sans Bold";
-font-size: 18px;
-line-height: 23px;
-color: #171717;
-margin-bottom: 25px;
-}
-.img-post-car{
+.img-creative-side {
   width: 270px;
   height: auto;
   object-fit: cover;
   margin-bottom: 20px;
 }
-.post-car-title{
+.creative-side-content {
+  width: 270px;
+}
+.creative-side-name {
+  font-family: "PT Sans Bold";
+  font-size: 18px;
+  line-height: 23px;
+  color: #171717;
+  margin-bottom: 10px;
+}
+.creative-side-bloger {
+  font-family: "PT Sans italic";
+  font-size: 14px;
+  line-height: 18px;
+  color: #666666;
+  margin-bottom: 40px;
+}
+.creative-side-text {
+  font-family: "PT Sans Regular";
+  font-size: 15px;
+  line-height: 25px;
+  color: #666666;
+  margin-bottom: 20px;
+}
+.creative-side-btn {
+  font-family: "PT Sans Bold";
+  font-size: 14px;
+  line-height: 18px;
+  padding: 15px 80px;
+  color: #fff;
+  background: #232323;
+  border: 2px solid #232323;
+  border-radius: 5px;
+}
+.creative-side-btn:hover {
+  color: #232323;
+  background: #fff;
+  transition: 0.3s;
+}
+.post-title {
+  font-family: "PT Sans Bold";
+  font-size: 18px;
+  line-height: 23px;
+  color: #171717;
+  margin-bottom: 25px;
+}
+.img-post-car {
+  width: 270px;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+.post-car-title {
   width: 270px;
   font-family: "PT Sans Bold";
-font-size: 20px;
-line-height: 28px;
-color: #171717;
-margin-bottom: 10px;
+  font-size: 20px;
+  line-height: 28px;
+  color: #171717;
+  margin-bottom: 10px;
 }
-.post-car-text{
+.post-car-text {
   font-family: "PT Sans italic";
-font-size: 14px;
-line-height: 18px;
-color: #666666;
-margin-bottom: 40px;
+  font-size: 14px;
+  line-height: 18px;
+  color: #666666;
+  margin-bottom: 40px;
 }
-.instagram-title{
+.instagram-title {
   font-family: "PT Sans Bold";
-font-size: 18px;
-line-height: 21px;
-color: #171717;
-margin-bottom: 25px;
+  font-size: 18px;
+  line-height: 21px;
+  color: #171717;
+  margin-bottom: 25px;
 }
 .instagram-post-img {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.img-instagram{
+.img-instagram {
   width: 130px;
   height: auto;
   object-fit: cover;
   margin-bottom: 10px;
 }
-.instagram-btn{
-    padding: 17px 76px;
-    background: #232323;
-    border-radius: 5px;
-    margin-bottom: 60px;
-}
-.instagram-btn:hover{
-  box-shadow: 0 0 15px rgb(54, 54, 54);
-  transition: 0.3s;
-}
-.tags-title{
-  font-family: "PT Sans Bold";
-font-size: 18px;
-line-height: 21px;
-color: #171717;
-margin-bottom: 30px;
-}
-/* .tags-btn{
-  font-family: "PT Sans Regular";
-font-size: 14px;
-line-height: 18px;
-color: #171717;
-  padding: 5px 18px;
-  background: #EBEBEB;
-  border-radius: 3px;
-  margin-bottom: 10px;
-} */
-.tags-btn{
-display: flex;
-flex-wrap: wrap;
-margin-bottom: 60px;
-}
-.tags-btn > li:nth-child(n + 1){
-    margin-right: 10px;
-  }
-.tags-btn > li > a{
-  font-family: "PT Sans Regular";
-  font-size: 14px;
-  line-height: 18px;
-  color: #171717;
-    padding: 5px 15px;
-    background: #EBEBEB;
-    border-radius: 3px;
-    margin-bottom: 10px;
-}
-.tags-btn > li > a:hover{
-  background: #999999;
-  transition: 0.3s;
-}
-.email-title{
-  font-family: "PT Sans Bold";
-font-size: 18px;
-line-height: 23px;
-color: #171717;
-margin-bottom: 10px;
-}
-.email-text{
-  font-family: "PT Sans Regular";
-font-size: 14px;
-line-height: 24px;
-color: #666666;
-margin-bottom: 30px;
-}
-.email-forms{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.hero-select {
-  padding-left: 20px;
-  width: 270px;
-  height: 50px;
-  font-size: 14px;
-  line-height: 18px;
-  margin-bottom: 10px;
-  color: #AEB3BB;
-  border: 1px solid #E5E5E5;
-  box-sizing: border-box;
-  border-radius: 5px;
-}
-.email-btn{
-  padding: 17px 51px;
-  color: #fff;
-  text-align: center;
+.instagram-btn {
+  padding: 17px 76px;
   background: #232323;
   border-radius: 5px;
   margin-bottom: 60px;
 }
-.email-btn:hover{
+.instagram-btn:hover {
+  box-shadow: 0 0 15px rgb(54, 54, 54);
+  transition: 0.3s;
+}
+.tags-title {
+  font-family: "PT Sans Bold";
+  font-size: 18px;
+  line-height: 21px;
+  color: #171717;
+  margin-bottom: 30px;
+}
+.tags-btn {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 60px;
+}
+.tags-btn > li:nth-child(n + 1) {
+  margin-right: 10px;
+}
+.tags-btn > li > a {
+  font-family: "PT Sans Regular";
+  font-size: 14px;
+  line-height: 18px;
+  color: #171717;
+  padding: 5px 15px;
+  background: #ebebeb;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+.tags-btn > li > a:hover {
+  background: #999999;
+  transition: 0.3s;
+}
+.email-title {
+  font-family: "PT Sans Bold";
+  font-size: 18px;
+  line-height: 23px;
+  color: #171717;
+  margin-bottom: 10px;
+}
+.email-text {
+  font-family: "PT Sans Regular";
+  font-size: 14px;
+  line-height: 24px;
+  color: #666666;
+  margin-bottom: 30px;
+}
+.email-forms {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero-your-imput {
+  padding-left: 20px;
+  width: 100%;
+  height: 50px;
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 10px;
+  color: #aeb3bb;
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.email-btn {
+  width: 100%;
+  padding: 17px 51px;
+  color: #fff;
+  text-align: center;
+  background: #232323;
+  border: 0;
+  border-radius: 5px;
+  margin-bottom: 60px;
+}
+.email-btn:hover {
   box-shadow: 0 0 15px rgb(54, 54, 54);
   transition: 0.3s;
 }
 /*=====================ASIDE STYLE END======================*/
-.footer{
+.footer {
   background: #171717;
 }
-.footer-nav{display: flex;
+.footer-nav {
+  display: flex;
   padding-top: 60px;
 }
-.footer-nav-company{
+.footer-nav-company {
   width: 270px;
 }
-.footer-nav-text{
+.footer-nav-text {
   margin-top: 30px;
   font-family: "PT Sans Regular";
-font-size: 14px;
-line-height: 22px;
-color: #CECECE;
-margin-bottom: 65px;
+  font-size: 14px;
+  line-height: 22px;
+  color: #cecece;
+  margin-bottom: 65px;
 }
-.footer-nav-social{
+.footer-nav-social {
   font-family: "PT Sans Bold";
   font-size: 20px;
   line-height: 26px;
-color: #FFFFFF;
-margin-bottom: 20px;
+  color: #ffffff;
+  margin-bottom: 20px;
 }
-.footer-nav-company{
+.footer-nav-company {
   margin-right: 130px;
 }
-.img-social-icon{
+.img-social-icon {
   margin-right: 15px;
 }
 .recent-posts {
   width: 295px;
   margin-right: 110px;
 }
-.recent-posts-title{
-  font-family: "PT Sans Bold";
-font-size: 20px;
-line-height: 26px;
-color: #FFFFFF;
-margin-bottom: 30px;
-}
-.recent-posts-content{
-  display: flex;
-  margin-bottom: 25px;
-}
-.img-posts-icon{
-  margin-right: 20px;
-}
-.recent-post-title{
-  font-family: "PT Sans Bold";
-  font-size: 15px;
-  line-height: 26px;
-color: #FFFFFF;
-margin-bottom: 15px;
-}
-.recent-post-date{
-  font-family: "PT Sans Regular";
-font-size: 14px;
-line-height: 14px;
-color: #CECECE;
-}
-.news-letter{
-  width: 270px;
-}
-.news-letter-title{
+.recent-posts-title {
   font-family: "PT Sans Bold";
   font-size: 20px;
   line-height: 26px;
-color: #FFFFFF;
-margin-bottom: 40px;
+  color: #ffffff;
+  margin-bottom: 30px;
 }
-.news-letter-email{
+.recent-posts-content {
+  display: flex;
+  margin-bottom: 25px;
+}
+.img-posts-icon {
+  margin-right: 20px;
+}
+.recent-post-title {
+  font-family: "PT Sans Bold";
+  font-size: 15px;
+  line-height: 26px;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+.recent-post-date {
+  font-family: "PT Sans Regular";
+  font-size: 14px;
+  line-height: 14px;
+  color: #cecece;
+}
+.news-letter {
+  width: 270px;
+}
+.news-letter-title {
+  font-family: "PT Sans Bold";
+  font-size: 20px;
+  line-height: 26px;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+.news-letter-email {
   display: flex;
   flex-direction: column;
 }
-.news-letter-select{
+.news-letter-select {
   padding-left: 20px;
-  width: 270px;
+  width: 100%;
   height: 50px;
   font-size: 14px;
   line-height: 18px;
   margin-bottom: 10px;
-  color: #AEB3BB;
+  color: #aeb3bb;
   box-sizing: border-box;
   background: #373737;
+  border: 0;
   border-radius: 3px;
 }
-.news-letter-email-btn{
+.news-letter-email-btn {
   font-family: "PT Sans Bold";
-  padding: 17px 64px;
+  width: 100%;
+  padding: 17px 0;
   color: #fff;
   text-align: center;
   background: #232323;
-border-radius: 3px;
+  border-radius: 3px;
   margin-bottom: 60px;
   font-size: 14px;
-line-height: 18px;
+  line-height: 18px;
+  border: 0;
 }
-.news-letter-email-btn:hover{
+.news-letter-email-btn:hover {
   box-shadow: 0 0 15px rgb(255, 255, 255);
   transition: 0.3s;
 }
-.footer-company{
+.footer-company {
   background: #000000;
   padding: 30px 0;
 }
-.footer-data-company{
+.footer-data-company {
   font-family: "PT Sans Regular";
-font-size: 14px;
-line-height: 18px;
-color: #FFFFFF;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
 }
-.footer-company-nav{
+.footer-company-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
